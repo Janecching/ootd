@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: lightblue;
+    height: 100vh;
+    padding: 40px;
+}
+
+.dashboard {
+    background-color: blue;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.item {
+    padding: 20px;
+    margin: 5px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    background-color: red;
+    height: 80%;
+    width: 50%;
+    padding: 2px;
+}
+
+.top,
+.bottom {
+    /* padding: 20px;
+    margin: 20px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid; */
+    height: 50%;
+}
